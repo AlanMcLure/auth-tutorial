@@ -1,7 +1,7 @@
 "use server";
 
 import * as z from "zod";
-import bcrypt from "bcrypt"; // Si hay problemas probar con bcryptjs (instalandolo y tb los types)
+import bcrypt from "bcryptjs";
 
 import { db } from "@/lib/db";
 import { RegisterSchema } from "@/schemas";
