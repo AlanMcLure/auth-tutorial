@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt"; // o bcryptjs si falla
+import bcrypt from "bcryptjs"; // o bcryptjs si falla
 import type { NextAuthConfig } from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import Github from "next-auth/providers/github";
